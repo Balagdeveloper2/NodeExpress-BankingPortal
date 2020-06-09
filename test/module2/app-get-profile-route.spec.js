@@ -23,7 +23,7 @@ describe('app.js contains a Profile Route', () => {
           'The profile route does not seem to be rendering the `profile` view.'
         );
         assert(
-          R.propEq('name', 'PS User')(spy.firstCall.args[1].user),
+          R.propEq('name', 'Bala')(spy.firstCall.args[1].user),
           'The profile route may be missing a user object.'
         );
       })
